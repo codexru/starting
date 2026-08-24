@@ -39,6 +39,11 @@ print(type(sets))
 dictionaries = {"clave": "valor"}
 print(type(dictionaries))
 
+
+#   ========================
+#     Only data comprober
+#   ========================
+
 # Your data type is
 from ast import literal_eval as detect
 def vrga(x) :
