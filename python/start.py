@@ -39,3 +39,14 @@ print(type(sets))
 dictionaries = {"clave": "valor"}
 print(type(dictionaries))
 
+# Your data type is
+from ast import literal_eval as detect
+def vrga(x) :
+ try:
+  y = detect(x)
+  return y
+ except:
+  return x
+x = input("Your data type:")
+m = type(vrga(x)).__name__
+print(f"Type of data is: {m}")
