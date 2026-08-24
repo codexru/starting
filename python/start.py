@@ -1,8 +1,5 @@
+# print used for show text or data
 print("hello world")
-
-calculator = 2 + 2
-print(calculator)
-
 
 
 # type of data
