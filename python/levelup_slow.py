@@ -8,6 +8,7 @@ age = input("What's your age: ")
 print(type(name), type(age))
 print(f"Hi {name}, my name is corux. Your age is: {age}")
 age = int(age)
+# this is a conditional
 if age >= 18:
  print("good you are older")
 else:
