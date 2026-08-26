@@ -9,7 +9,16 @@ print(type(name), type(age))
 print(f"Hi {name}, my name is corux. Your age is: {age}")
 age = int(age)
 # this is a conditional
-if age >= 18:
- print("good you are older")
-else:
- print("good you not have 18 years old.")
+# if age >= 18:
+#  print("good you are older")
+# else:
+#  print("good you not have 18 years old.")
+"""
+example
+in
+manager
+"""
+sum = 2 + 2
+print(sum)
+sum_dec = 2.2 + 2.1
+print(sum_dec)
