@@ -7,4 +7,8 @@ age = input("What's your age: ")
 # important: input, The type of data that comes out will always be a string or str
 print(type(name), type(age))
 print(f"Hi {name}, my name is corux. Your age is: {age}")
-
+age = int(age)
+if age >= 18:
+ print("good you are older")
+else:
+ print("good you not have 18 years old.")
