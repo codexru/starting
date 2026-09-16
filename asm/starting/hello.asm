@@ -1,5 +1,5 @@
 section .data
-    msg db "Hello World", 0xA
+    text db "Hello World",10
 
 section .text
     global _start
@@ -7,8 +7,8 @@ section .text
 _start:
     mov rax, 1              ; syscall: write
     mov rdi, 1              ; file descriptor: stdout
-    mov rsi, msg            ; pointer to message
-    mov rdx, 12            ; message length
+    mov rsi, text            ; pointer to message
+    mov rdx, 13             ; message length
     syscall
 
     mov rax, 60             ; syscall: exit
